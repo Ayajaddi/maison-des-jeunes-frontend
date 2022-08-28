@@ -1,0 +1,86 @@
+<div>
+  <div class="row">
+    <div class="col-12 text-end">
+      <button data-mdb-toggle="modal" data-mdb-target="#ajouterMaison" class="btn btn-primary btn-md">Ajouter un groupe
+        <i class="fas fa-plus" style="margin-left: 5px"></i>
+      </button>
+    </div>
+    <div
+      class="modal fade"
+      id="ajouterMaison"
+      data-mdb-backdrop="static"
+      data-mdb-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Ajouter un groupe</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div  class="md-form md-outline">
+                <input mdbInput type="text" class="form-control" placeholder="Titre">
+              </div>
+              <!--input Poste -->
+              <div class="input-group mt-2 mb-2">
+                            <textarea class="form-control"
+                                      id="textAreaExample" placeholder="Description"
+                                      aria-describedby="basic-addon1" style="height: 150px"></textarea>
+              </div>
+
+              <div class="text-center dark-grey-text">
+                <a class="btn btn-outline-info btn-md mt-3 waves-effect" role="button">
+                  Charger image<i class="fa fa-upload" style="margin-left: 10px"></i></a>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-secondary btn-block mb-4">Ajouter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 text-center">
+      <span style="font-size: 25px; color: gray; font-weight: bold">Liste des maisons des Jeunesses</span>
+    </div>
+  </div>
+  <hr>
+  <div class="container my-5">
+    <section>
+      <div class="row">
+        <div class="col-4">
+          <div style="border: rgba(0,0,0,0.33) 1px solid" class="card card-ecommerce">
+            <div class="row">
+              <div class="col-12 text-center">
+                <img class="pt-4" src="https://i0.wp.com/lapresse.tn/wp-content/uploads/2020/01/jeunes-2.gif?fit=850%2C491&ssl=1"
+                     style="border-radius: 10px" height="150" alt="Sample image">
+              </div>
+              <div class="col-12 pl-lg-0">
+                <div class="card z-depth-0">
+                  <div class="card-body">
+                    <h5 class="card-title mb-1">
+                      <strong><a class="dark-grey-text">Nom de groupe</a></strong></h5>
+                    <span class="badge badge-success" style="margin-left: 5px">15 Evenements</span>
+                    <span class="badge badge-success" style="margin-left: 5px">5 Groupes</span>
+                    <span class="badge badge-success" style="margin-left: 5px">5 Groupes</span>
+                    <div class="row pt-2" style="border-radius: 10px">
+                      <p>Informations concernat le groupe</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,153 @@
+<div class="container-fluid">
+  <section class="mb-4">
+    <div class="row">
+      <div class="col-12 text-end">
+        <button data-mdb-toggle="modal" data-mdb-target="#ajouterMaison" class="btn btn-primary btn-md">Ajouter un utilisateur
+          <i class="fas fa-plus" style="margin-left: 5px"></i>
+        </button>
+      </div>
+      <div
+        class="modal fade"
+        id="ajouterMaison"
+        data-mdb-backdrop="static"
+        data-mdb-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Ajouter un utilisateur</h5>
+              <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div  class="md-form md-outline">
+                  <input mdbInput type="text" class="form-control" placeholder="Titre">
+                </div>
+
+                <div  class="md-form md-outline mt-3">
+                  <input mdbInput type="text" class="form-control" placeholder="Titre">
+                </div>
+
+                <div  class="md-form md-outline mt-3">
+                  <input mdbInput type="text" class="form-control" placeholder="Titre">
+                </div>
+
+                <div  class="md-form md-outline mt-3">
+                  <input mdbInput type="text" class="form-control" placeholder="Titre">
+                </div>
+
+                <div class="text-center dark-grey-text">
+                  <a class="btn btn-outline-info btn-md mt-3 waves-effect" role="button">
+                    Charger image<i class="fa fa-upload" style="margin-left: 10px"></i></a>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+
+              <button type="button" class="btn btn-secondary btn-block mb-4">Ajouter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header text-center py-3">
+        <h5 class="mb-0 text-center">
+          <strong>Liste des utilisateurs</strong>
+        </h5>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table align-middle mb-0 bg-white">
+            <thead class="bg-light">
+            <tr>
+              <th>Name</th>
+              <th>Prenom</th>
+              <th>Date de Naissance</th>
+              <th>Matrucile</th>
+              <th>Role</th>
+              <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                    src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                    class="rounded-circle"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                  />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">Kate</p>
+
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-bold mb-1">Hunington</p>
+              </td>
+              <td>
+                <p class="fw-bold mb-1">20/07/1998</p>
+              </td>
+              <td>
+                <p class="fw-bold mb-1"> 1098</p>
+              </td>
+              <td>
+                <p class="fw-bold mb-1"> Administrateur</p>
+              </td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-link btn-rounded btn-sm fw-bold">
+                  <span style="color: red;">Desactiver</span>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                    src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                    class="rounded-circle"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                  />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">Kate</p>
+
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-bold mb-1">Hunington</p>
+              </td>
+              <td>
+                <p class="fw-bold mb-1">20/07/1998</p>
+              </td>
+              <td>
+                <p class="fw-bold mb-1"> 1098</p>
+              </td>
+              <td>
+                <p class="fw-bold mb-1"> User</p>
+              </td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-link btn-rounded btn-sm fw-bold">
+                  <span style="color: green;">Active</span>
+                </button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
